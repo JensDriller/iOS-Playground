@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Tutorial06' target in the 'Tutorial06' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

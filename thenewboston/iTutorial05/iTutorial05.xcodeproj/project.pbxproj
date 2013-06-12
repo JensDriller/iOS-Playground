@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE77FC3E1471933500AC8395 /* SwitchClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77FC3C1471933500AC8395 /* SwitchClass.m */; };
+		CE77FC44147193A600AC8395 /* RedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77FC42147193A600AC8395 /* RedClass.m */; };
+		CE77FC45147193A600AC8395 /* RedWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77FC43147193A600AC8395 /* RedWindow.xib */; };
+		CE77FC49147193CD00AC8395 /* BlueClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77FC47147193CD00AC8395 /* BlueClass.m */; };
+		CE77FC4A147193CD00AC8395 /* BlueWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77FC48147193CD00AC8395 /* BlueWindow.xib */; };
+		CEDB038314718FE800CF00F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB038214718FE800CF00F8 /* UIKit.framework */; };
+		CEDB038514718FE800CF00F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB038414718FE800CF00F8 /* Foundation.framework */; };
+		CEDB038714718FE800CF00F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB038614718FE800CF00F8 /* CoreGraphics.framework */; };
+		CEDB038D14718FE800CF00F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDB038B14718FE800CF00F8 /* InfoPlist.strings */; };
+		CEDB038F14718FE800CF00F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB038E14718FE800CF00F8 /* main.m */; };
+		CEDB039314718FE800CF00F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB039214718FE800CF00F8 /* AppDelegate.m */; };
+		CEDB039B14718FE800CF00F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB039A14718FE800CF00F8 /* SenTestingKit.framework */; };
+		CEDB039C14718FE800CF00F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB038214718FE800CF00F8 /* UIKit.framework */; };
+		CEDB039D14718FE800CF00F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB038414718FE800CF00F8 /* Foundation.framework */; };
+		CEDB03A514718FE800CF00F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEDB03A314718FE800CF00F8 /* InfoPlist.strings */; };
+		CEDB03A814718FE800CF00F8 /* iTutorial05Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB03A714718FE800CF00F8 /* iTutorial05Tests.m */; };
+		CEDB03B21471908100CF00F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB03B11471908100CF00F8 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDB039E14718FE800CF00F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDB037514718FE800CF00F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDB037D14718FE800CF00F8;
+			remoteInfo = iTutorial05;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE77FC3B1471933500AC8395 /* SwitchClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchClass.h; sourceTree = "<group>"; };
+		CE77FC3C1471933500AC8395 /* SwitchClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchClass.m; sourceTree = "<group>"; };
+		CE77FC41147193A600AC8395 /* RedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedClass.h; sourceTree = "<group>"; };
+		CE77FC42147193A600AC8395 /* RedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedClass.m; sourceTree = "<group>"; };
+		CE77FC43147193A600AC8395 /* RedWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedWindow.xib; sourceTree = "<group>"; };
+		CE77FC46147193CD00AC8395 /* BlueClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueClass.h; sourceTree = "<group>"; };
+		CE77FC47147193CD00AC8395 /* BlueClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueClass.m; sourceTree = "<group>"; };
+		CE77FC48147193CD00AC8395 /* BlueWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueWindow.xib; sourceTree = "<group>"; };
+		CEDB037E14718FE800CF00F8 /* iTutorial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTutorial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB038214718FE800CF00F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEDB038414718FE800CF00F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEDB038614718FE800CF00F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEDB038A14718FE800CF00F8 /* iTutorial05-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTutorial05-Info.plist"; sourceTree = "<group>"; };
+		CEDB038C14718FE800CF00F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDB038E14718FE800CF00F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDB039014718FE800CF00F8 /* iTutorial05-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTutorial05-Prefix.pch"; sourceTree = "<group>"; };
+		CEDB039114718FE800CF00F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDB039214718FE800CF00F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDB039914718FE800CF00F8 /* iTutorial05Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTutorial05Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB039A14718FE800CF00F8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEDB03A214718FE800CF00F8 /* iTutorial05Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTutorial05Tests-Info.plist"; sourceTree = "<group>"; };
+		CEDB03A414718FE800CF00F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEDB03A614718FE800CF00F8 /* iTutorial05Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTutorial05Tests.h; sourceTree = "<group>"; };
+		CEDB03A714718FE800CF00F8 /* iTutorial05Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTutorial05Tests.m; sourceTree = "<group>"; };
+		CEDB03B11471908100CF00F8 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDB037B14718FE800CF00F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB038314718FE800CF00F8 /* UIKit.framework in Frameworks */,
+				CEDB038514718FE800CF00F8 /* Foundation.framework in Frameworks */,
+				CEDB038714718FE800CF00F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB039514718FE800CF00F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB039B14718FE800CF00F8 /* SenTestingKit.framework in Frameworks */,
+				CEDB039C14718FE800CF00F8 /* UIKit.framework in Frameworks */,
+				CEDB039D14718FE800CF00F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDB037314718FE800CF00F8 = {
+			isa = PBXGroup;
+			children = (
+				CEDB038814718FE800CF00F8 /* iTutorial05 */,
+				CEDB03A014718FE800CF00F8 /* iTutorial05Tests */,
+				CEDB038114718FE800CF00F8 /* Frameworks */,
+				CEDB037F14718FE800CF00F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDB037F14718FE800CF00F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB037E14718FE800CF00F8 /* iTutorial05.app */,
+				CEDB039914718FE800CF00F8 /* iTutorial05Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDB038114718FE800CF00F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB038214718FE800CF00F8 /* UIKit.framework */,
+				CEDB038414718FE800CF00F8 /* Foundation.framework */,
+				CEDB038614718FE800CF00F8 /* CoreGraphics.framework */,
+				CEDB039A14718FE800CF00F8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDB038814718FE800CF00F8 /* iTutorial05 */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB039114718FE800CF00F8 /* AppDelegate.h */,
+				CEDB039214718FE800CF00F8 /* AppDelegate.m */,
+				CE77FC3B1471933500AC8395 /* SwitchClass.h */,
+				CE77FC3C1471933500AC8395 /* SwitchClass.m */,
+				CE77FC46147193CD00AC8395 /* BlueClass.h */,
+				CE77FC47147193CD00AC8395 /* BlueClass.m */,
+				CE77FC41147193A600AC8395 /* RedClass.h */,
+				CE77FC42147193A600AC8395 /* RedClass.m */,
+				CEDB038914718FE800CF00F8 /* Supporting Files */,
+			);
+			path = iTutorial05;
+			sourceTree = "<group>";
+		};
+		CEDB038914718FE800CF00F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB03B11471908100CF00F8 /* MainWindow.xib */,
+				CE77FC48147193CD00AC8395 /* BlueWindow.xib */,
+				CE77FC43147193A600AC8395 /* RedWindow.xib */,
+				CEDB038A14718FE800CF00F8 /* iTutorial05-Info.plist */,
+				CEDB038B14718FE800CF00F8 /* InfoPlist.strings */,
+				CEDB038E14718FE800CF00F8 /* main.m */,
+				CEDB039014718FE800CF00F8 /* iTutorial05-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDB03A014718FE800CF00F8 /* iTutorial05Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB03A614718FE800CF00F8 /* iTutorial05Tests.h */,
+				CEDB03A714718FE800CF00F8 /* iTutorial05Tests.m */,
+				CEDB03A114718FE800CF00F8 /* Supporting Files */,
+			);
+			path = iTutorial05Tests;
+			sourceTree = "<group>";
+		};
+		CEDB03A114718FE800CF00F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB03A214718FE800CF00F8 /* iTutorial05Tests-Info.plist */,
+				CEDB03A314718FE800CF00F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDB037D14718FE800CF00F8 /* iTutorial05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB03AB14718FE800CF00F8 /* Build configuration list for PBXNativeTarget "iTutorial05" */;
+			buildPhases = (
+				CEDB037A14718FE800CF00F8 /* Sources */,
+				CEDB037B14718FE800CF00F8 /* Frameworks */,
+				CEDB037C14718FE800CF00F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTutorial05;
+			productName = iTutorial05;
+			productReference = CEDB037E14718FE800CF00F8 /* iTutorial05.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDB039814718FE800CF00F8 /* iTutorial05Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB03AE14718FE800CF00F8 /* Build configuration list for PBXNativeTarget "iTutorial05Tests" */;
+			buildPhases = (
+				CEDB039414718FE800CF00F8 /* Sources */,
+				CEDB039514718FE800CF00F8 /* Frameworks */,
+				CEDB039614718FE800CF00F8 /* Resources */,
+				CEDB039714718FE800CF00F8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDB039F14718FE800CF00F8 /* PBXTargetDependency */,
+			);
+			name = iTutorial05Tests;
+			productName = iTutorial05Tests;
+			productReference = CEDB039914718FE800CF00F8 /* iTutorial05Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDB037514718FE800CF00F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEDB037814718FE800CF00F8 /* Build configuration list for PBXProject "iTutorial05" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEDB037314718FE800CF00F8;
+			productRefGroup = CEDB037F14718FE800CF00F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDB037D14718FE800CF00F8 /* iTutorial05 */,
+				CEDB039814718FE800CF00F8 /* iTutorial05Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDB037C14718FE800CF00F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB038D14718FE800CF00F8 /* InfoPlist.strings in Resources */,
+				CEDB03B21471908100CF00F8 /* MainWindow.xib in Resources */,
+				CE77FC45147193A600AC8395 /* RedWindow.xib in Resources */,
+				CE77FC4A147193CD00AC8395 /* BlueWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB039614718FE800CF00F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB03A514718FE800CF00F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEDB039714718FE800CF00F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDB037A14718FE800CF00F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB038F14718FE800CF00F8 /* main.m in Sources */,
+				CEDB039314718FE800CF00F8 /* AppDelegate.m in Sources */,
+				CE77FC3E1471933500AC8395 /* SwitchClass.m in Sources */,
+				CE77FC44147193A600AC8395 /* RedClass.m in Sources */,
+				CE77FC49147193CD00AC8395 /* BlueClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB039414718FE800CF00F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB03A814718FE800CF00F8 /* iTutorial05Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDB039F14718FE800CF00F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDB037D14718FE800CF00F8 /* iTutorial05 */;
+			targetProxy = CEDB039E14718FE800CF00F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDB038B14718FE800CF00F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB038C14718FE800CF00F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEDB03A314718FE800CF00F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB03A414718FE800CF00F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDB03A914718FE800CF00F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDB03AA14718FE800CF00F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDB03AC14718FE800CF00F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial05/iTutorial05-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial05/iTutorial05-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEDB03AD14718FE800CF00F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial05/iTutorial05-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial05/iTutorial05-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEDB03AF14718FE800CF00F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTutorial05.app/iTutorial05";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial05/iTutorial05-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial05Tests/iTutorial05Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEDB03B014718FE800CF00F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTutorial05.app/iTutorial05";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial05/iTutorial05-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial05Tests/iTutorial05Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDB037814718FE800CF00F8 /* Build configuration list for PBXProject "iTutorial05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB03A914718FE800CF00F8 /* Debug */,
+				CEDB03AA14718FE800CF00F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB03AB14718FE800CF00F8 /* Build configuration list for PBXNativeTarget "iTutorial05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB03AC14718FE800CF00F8 /* Debug */,
+				CEDB03AD14718FE800CF00F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB03AE14718FE800CF00F8 /* Build configuration list for PBXNativeTarget "iTutorial05Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB03AF14718FE800CF00F8 /* Debug */,
+				CEDB03B014718FE800CF00F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDB037514718FE800CF00F8 /* Project object */;
+}

@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE33C39314708E2000393A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C39214708E2000393A89 /* UIKit.framework */; };
+		CE33C39514708E2000393A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C39414708E2000393A89 /* Foundation.framework */; };
+		CE33C39714708E2000393A89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C39614708E2000393A89 /* CoreGraphics.framework */; };
+		CE33C39D14708E2000393A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE33C39B14708E2000393A89 /* InfoPlist.strings */; };
+		CE33C39F14708E2000393A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33C39E14708E2000393A89 /* main.m */; };
+		CE33C3A314708E2000393A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33C3A214708E2000393A89 /* AppDelegate.m */; };
+		CE33C3A614708E2000393A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33C3A514708E2000393A89 /* ViewController.m */; };
+		CE33C3A914708E2000393A89 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE33C3A714708E2000393A89 /* ViewController.xib */; };
+		CE33C3B114708E2000393A89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C3B014708E2000393A89 /* SenTestingKit.framework */; };
+		CE33C3B214708E2000393A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C39214708E2000393A89 /* UIKit.framework */; };
+		CE33C3B314708E2000393A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C39414708E2000393A89 /* Foundation.framework */; };
+		CE33C3BB14708E2000393A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE33C3B914708E2000393A89 /* InfoPlist.strings */; };
+		CE33C3BE14708E2000393A89 /* iTutorial04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33C3BD14708E2000393A89 /* iTutorial04Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE33C3B414708E2000393A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE33C38514708E1F00393A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE33C38D14708E1F00393A89;
+			remoteInfo = iTutorial04;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE33C38E14708E2000393A89 /* iTutorial04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTutorial04.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE33C39214708E2000393A89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE33C39414708E2000393A89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE33C39614708E2000393A89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE33C39A14708E2000393A89 /* iTutorial04-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTutorial04-Info.plist"; sourceTree = "<group>"; };
+		CE33C39C14708E2000393A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE33C39E14708E2000393A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE33C3A014708E2000393A89 /* iTutorial04-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTutorial04-Prefix.pch"; sourceTree = "<group>"; };
+		CE33C3A114708E2000393A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE33C3A214708E2000393A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE33C3A414708E2000393A89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE33C3A514708E2000393A89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE33C3A814708E2000393A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE33C3AF14708E2000393A89 /* iTutorial04Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTutorial04Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE33C3B014708E2000393A89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE33C3B814708E2000393A89 /* iTutorial04Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTutorial04Tests-Info.plist"; sourceTree = "<group>"; };
+		CE33C3BA14708E2000393A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE33C3BC14708E2000393A89 /* iTutorial04Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTutorial04Tests.h; sourceTree = "<group>"; };
+		CE33C3BD14708E2000393A89 /* iTutorial04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTutorial04Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE33C38B14708E1F00393A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33C39314708E2000393A89 /* UIKit.framework in Frameworks */,
+				CE33C39514708E2000393A89 /* Foundation.framework in Frameworks */,
+				CE33C39714708E2000393A89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE33C3AB14708E2000393A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33C3B114708E2000393A89 /* SenTestingKit.framework in Frameworks */,
+				CE33C3B214708E2000393A89 /* UIKit.framework in Frameworks */,
+				CE33C3B314708E2000393A89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE33C38314708E1F00393A89 = {
+			isa = PBXGroup;
+			children = (
+				CE33C39814708E2000393A89 /* iTutorial04 */,
+				CE33C3B614708E2000393A89 /* iTutorial04Tests */,
+				CE33C39114708E2000393A89 /* Frameworks */,
+				CE33C38F14708E2000393A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE33C38F14708E2000393A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C38E14708E2000393A89 /* iTutorial04.app */,
+				CE33C3AF14708E2000393A89 /* iTutorial04Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE33C39114708E2000393A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C39214708E2000393A89 /* UIKit.framework */,
+				CE33C39414708E2000393A89 /* Foundation.framework */,
+				CE33C39614708E2000393A89 /* CoreGraphics.framework */,
+				CE33C3B014708E2000393A89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE33C39814708E2000393A89 /* iTutorial04 */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C3A114708E2000393A89 /* AppDelegate.h */,
+				CE33C3A214708E2000393A89 /* AppDelegate.m */,
+				CE33C3A414708E2000393A89 /* ViewController.h */,
+				CE33C3A514708E2000393A89 /* ViewController.m */,
+				CE33C3A714708E2000393A89 /* ViewController.xib */,
+				CE33C39914708E2000393A89 /* Supporting Files */,
+			);
+			path = iTutorial04;
+			sourceTree = "<group>";
+		};
+		CE33C39914708E2000393A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C39A14708E2000393A89 /* iTutorial04-Info.plist */,
+				CE33C39B14708E2000393A89 /* InfoPlist.strings */,
+				CE33C39E14708E2000393A89 /* main.m */,
+				CE33C3A014708E2000393A89 /* iTutorial04-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE33C3B614708E2000393A89 /* iTutorial04Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C3BC14708E2000393A89 /* iTutorial04Tests.h */,
+				CE33C3BD14708E2000393A89 /* iTutorial04Tests.m */,
+				CE33C3B714708E2000393A89 /* Supporting Files */,
+			);
+			path = iTutorial04Tests;
+			sourceTree = "<group>";
+		};
+		CE33C3B714708E2000393A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C3B814708E2000393A89 /* iTutorial04Tests-Info.plist */,
+				CE33C3B914708E2000393A89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE33C38D14708E1F00393A89 /* iTutorial04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE33C3C114708E2000393A89 /* Build configuration list for PBXNativeTarget "iTutorial04" */;
+			buildPhases = (
+				CE33C38A14708E1F00393A89 /* Sources */,
+				CE33C38B14708E1F00393A89 /* Frameworks */,
+				CE33C38C14708E1F00393A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTutorial04;
+			productName = iTutorial04;
+			productReference = CE33C38E14708E2000393A89 /* iTutorial04.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE33C3AE14708E2000393A89 /* iTutorial04Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE33C3C414708E2000393A89 /* Build configuration list for PBXNativeTarget "iTutorial04Tests" */;
+			buildPhases = (
+				CE33C3AA14708E2000393A89 /* Sources */,
+				CE33C3AB14708E2000393A89 /* Frameworks */,
+				CE33C3AC14708E2000393A89 /* Resources */,
+				CE33C3AD14708E2000393A89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE33C3B514708E2000393A89 /* PBXTargetDependency */,
+			);
+			name = iTutorial04Tests;
+			productName = iTutorial04Tests;
+			productReference = CE33C3AF14708E2000393A89 /* iTutorial04Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE33C38514708E1F00393A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE33C38814708E1F00393A89 /* Build configuration list for PBXProject "iTutorial04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE33C38314708E1F00393A89;
+			productRefGroup = CE33C38F14708E2000393A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE33C38D14708E1F00393A89 /* iTutorial04 */,
+				CE33C3AE14708E2000393A89 /* iTutorial04Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE33C38C14708E1F00393A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33C39D14708E2000393A89 /* InfoPlist.strings in Resources */,
+				CE33C3A914708E2000393A89 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE33C3AC14708E2000393A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33C3BB14708E2000393A89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE33C3AD14708E2000393A89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE33C38A14708E1F00393A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33C39F14708E2000393A89 /* main.m in Sources */,
+				CE33C3A314708E2000393A89 /* AppDelegate.m in Sources */,
+				CE33C3A614708E2000393A89 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE33C3AA14708E2000393A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33C3BE14708E2000393A89 /* iTutorial04Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE33C3B514708E2000393A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE33C38D14708E1F00393A89 /* iTutorial04 */;
+			targetProxy = CE33C3B414708E2000393A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE33C39B14708E2000393A89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE33C39C14708E2000393A89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE33C3A714708E2000393A89 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE33C3A814708E2000393A89 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE33C3B914708E2000393A89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE33C3BA14708E2000393A89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE33C3BF14708E2000393A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE33C3C014708E2000393A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE33C3C214708E2000393A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial04/iTutorial04-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial04/iTutorial04-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE33C3C314708E2000393A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial04/iTutorial04-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial04/iTutorial04-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE33C3C514708E2000393A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTutorial04.app/iTutorial04";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial04/iTutorial04-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial04Tests/iTutorial04Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE33C3C614708E2000393A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTutorial04.app/iTutorial04";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial04/iTutorial04-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial04Tests/iTutorial04Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE33C38814708E1F00393A89 /* Build configuration list for PBXProject "iTutorial04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE33C3BF14708E2000393A89 /* Debug */,
+				CE33C3C014708E2000393A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE33C3C114708E2000393A89 /* Build configuration list for PBXNativeTarget "iTutorial04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE33C3C214708E2000393A89 /* Debug */,
+				CE33C3C314708E2000393A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE33C3C414708E2000393A89 /* Build configuration list for PBXNativeTarget "iTutorial04Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE33C3C514708E2000393A89 /* Debug */,
+				CE33C3C614708E2000393A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE33C38514708E1F00393A89 /* Project object */;
+}

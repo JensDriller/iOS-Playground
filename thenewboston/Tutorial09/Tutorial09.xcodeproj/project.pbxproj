@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBDAB2F1469FD1200A5FA1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBDAB2E1469FD1200A5FA1E /* Foundation.framework */; };
+		CEBDAB321469FD1200A5FA1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDAB311469FD1200A5FA1E /* main.m */; };
+		CEBDAB361469FD1200A5FA1E /* Tutorial09.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEBDAB351469FD1200A5FA1E /* Tutorial09.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEBDAB281469FD1200A5FA1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEBDAB361469FD1200A5FA1E /* Tutorial09.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEBDAB2A1469FD1200A5FA1E /* Tutorial09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tutorial09; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBDAB2E1469FD1200A5FA1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEBDAB311469FD1200A5FA1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBDAB341469FD1200A5FA1E /* Tutorial09-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutorial09-Prefix.pch"; sourceTree = "<group>"; };
+		CEBDAB351469FD1200A5FA1E /* Tutorial09.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Tutorial09.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBDAB271469FD1200A5FA1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDAB2F1469FD1200A5FA1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBDAB1F1469FD1200A5FA1E = {
+			isa = PBXGroup;
+			children = (
+				CEBDAB301469FD1200A5FA1E /* Tutorial09 */,
+				CEBDAB2D1469FD1200A5FA1E /* Frameworks */,
+				CEBDAB2B1469FD1200A5FA1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBDAB2B1469FD1200A5FA1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDAB2A1469FD1200A5FA1E /* Tutorial09 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBDAB2D1469FD1200A5FA1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDAB2E1469FD1200A5FA1E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBDAB301469FD1200A5FA1E /* Tutorial09 */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDAB331469FD1200A5FA1E /* Supporting Files */,
+			);
+			path = Tutorial09;
+			sourceTree = "<group>";
+		};
+		CEBDAB331469FD1200A5FA1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDAB311469FD1200A5FA1E /* main.m */,
+				CEBDAB351469FD1200A5FA1E /* Tutorial09.1 */,
+				CEBDAB341469FD1200A5FA1E /* Tutorial09-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBDAB291469FD1200A5FA1E /* Tutorial09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBDAB391469FD1200A5FA1E /* Build configuration list for PBXNativeTarget "Tutorial09" */;
+			buildPhases = (
+				CEBDAB261469FD1200A5FA1E /* Sources */,
+				CEBDAB271469FD1200A5FA1E /* Frameworks */,
+				CEBDAB281469FD1200A5FA1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial09;
+			productName = Tutorial09;
+			productReference = CEBDAB2A1469FD1200A5FA1E /* Tutorial09 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBDAB211469FD1200A5FA1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEBDAB241469FD1200A5FA1E /* Build configuration list for PBXProject "Tutorial09" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEBDAB1F1469FD1200A5FA1E;
+			productRefGroup = CEBDAB2B1469FD1200A5FA1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBDAB291469FD1200A5FA1E /* Tutorial09 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBDAB261469FD1200A5FA1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDAB321469FD1200A5FA1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEBDAB371469FD1200A5FA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEBDAB381469FD1200A5FA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEBDAB3A1469FD1200A5FA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial09/Tutorial09-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBDAB3B1469FD1200A5FA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial09/Tutorial09-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBDAB241469FD1200A5FA1E /* Build configuration list for PBXProject "Tutorial09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDAB371469FD1200A5FA1E /* Debug */,
+				CEBDAB381469FD1200A5FA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBDAB391469FD1200A5FA1E /* Build configuration list for PBXNativeTarget "Tutorial09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDAB3A1469FD1200A5FA1E /* Debug */,
+				CEBDAB3B1469FD1200A5FA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBDAB211469FD1200A5FA1E /* Project object */;
+}

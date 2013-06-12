@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECD0ACC146BF22300AE4736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECD0ACB146BF22300AE4736 /* Foundation.framework */; };
+		CECD0ACF146BF22300AE4736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD0ACE146BF22300AE4736 /* main.m */; };
+		CECD0AD3146BF22300AE4736 /* Tutorial11.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CECD0AD2146BF22300AE4736 /* Tutorial11.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CECD0AC5146BF22300AE4736 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CECD0AD3146BF22300AE4736 /* Tutorial11.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CECD0AC7146BF22300AE4736 /* Tutorial11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tutorial11; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD0ACB146BF22300AE4736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CECD0ACE146BF22300AE4736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECD0AD1146BF22300AE4736 /* Tutorial11-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutorial11-Prefix.pch"; sourceTree = "<group>"; };
+		CECD0AD2146BF22300AE4736 /* Tutorial11.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Tutorial11.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECD0AC4146BF22300AE4736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD0ACC146BF22300AE4736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECD0ABC146BF22300AE4736 = {
+			isa = PBXGroup;
+			children = (
+				CECD0ACD146BF22300AE4736 /* Tutorial11 */,
+				CECD0ACA146BF22300AE4736 /* Frameworks */,
+				CECD0AC8146BF22300AE4736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECD0AC8146BF22300AE4736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0AC7146BF22300AE4736 /* Tutorial11 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECD0ACA146BF22300AE4736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0ACB146BF22300AE4736 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECD0ACD146BF22300AE4736 /* Tutorial11 */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0AD0146BF22300AE4736 /* Supporting Files */,
+			);
+			path = Tutorial11;
+			sourceTree = "<group>";
+		};
+		CECD0AD0146BF22300AE4736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECD0AD2146BF22300AE4736 /* Tutorial11.1 */,
+				CECD0ACE146BF22300AE4736 /* main.m */,
+				CECD0AD1146BF22300AE4736 /* Tutorial11-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECD0AC6146BF22300AE4736 /* Tutorial11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECD0AD6146BF22300AE4736 /* Build configuration list for PBXNativeTarget "Tutorial11" */;
+			buildPhases = (
+				CECD0AC3146BF22300AE4736 /* Sources */,
+				CECD0AC4146BF22300AE4736 /* Frameworks */,
+				CECD0AC5146BF22300AE4736 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial11;
+			productName = Tutorial11;
+			productReference = CECD0AC7146BF22300AE4736 /* Tutorial11 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECD0ABE146BF22300AE4736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CECD0AC1146BF22300AE4736 /* Build configuration list for PBXProject "Tutorial11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CECD0ABC146BF22300AE4736;
+			productRefGroup = CECD0AC8146BF22300AE4736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECD0AC6146BF22300AE4736 /* Tutorial11 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECD0AC3146BF22300AE4736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD0ACF146BF22300AE4736 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CECD0AD4146BF22300AE4736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CECD0AD5146BF22300AE4736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CECD0AD7146BF22300AE4736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial11/Tutorial11-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECD0AD8146BF22300AE4736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial11/Tutorial11-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECD0AC1146BF22300AE4736 /* Build configuration list for PBXProject "Tutorial11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD0AD4146BF22300AE4736 /* Debug */,
+				CECD0AD5146BF22300AE4736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECD0AD6146BF22300AE4736 /* Build configuration list for PBXNativeTarget "Tutorial11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD0AD7146BF22300AE4736 /* Debug */,
+				CECD0AD8146BF22300AE4736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECD0ABE146BF22300AE4736 /* Project object */;
+}

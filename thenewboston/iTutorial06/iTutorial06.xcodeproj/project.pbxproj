@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBA067C1471A60F00AD97B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA067B1471A60F00AD97B6 /* UIKit.framework */; };
+		CEBA067E1471A60F00AD97B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA067D1471A60F00AD97B6 /* Foundation.framework */; };
+		CEBA06801471A60F00AD97B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA067F1471A60F00AD97B6 /* CoreGraphics.framework */; };
+		CEBA06861471A60F00AD97B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06841471A60F00AD97B6 /* InfoPlist.strings */; };
+		CEBA06881471A60F00AD97B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA06871471A60F00AD97B6 /* main.m */; };
+		CEBA068C1471A60F00AD97B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA068B1471A60F00AD97B6 /* AppDelegate.m */; };
+		CEBA068F1471A60F00AD97B6 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA068E1471A60F00AD97B6 /* DatePickerViewController.m */; };
+		CEBA06961471A60F00AD97B6 /* SinglePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA06951471A60F00AD97B6 /* SinglePickerViewController.m */; };
+		CEBA069D1471A60F00AD97B6 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA069B1471A60F00AD97B6 /* DatePickerViewController.xib */; };
+		CEBA06A01471A60F00AD97B6 /* SinglePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA069E1471A60F00AD97B6 /* SinglePickerViewController.xib */; };
+		CEBA06A81471A60F00AD97B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA06A71471A60F00AD97B6 /* SenTestingKit.framework */; };
+		CEBA06A91471A60F00AD97B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA067B1471A60F00AD97B6 /* UIKit.framework */; };
+		CEBA06AA1471A60F00AD97B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA067D1471A60F00AD97B6 /* Foundation.framework */; };
+		CEBA06B21471A60F00AD97B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06B01471A60F00AD97B6 /* InfoPlist.strings */; };
+		CEBA06B51471A60F00AD97B6 /* iTutorial06Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA06B41471A60F00AD97B6 /* iTutorial06Tests.m */; };
+		CEBA06D31471AAEE00AD97B6 /* DependentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA06D11471AAEE00AD97B6 /* DependentPickerViewController.m */; };
+		CEBA06D41471AAEE00AD97B6 /* DependentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06D21471AAEE00AD97B6 /* DependentPickerViewController.xib */; };
+		CEBA06D81471AB1E00AD97B6 /* CustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA06D61471AB1E00AD97B6 /* CustomPickerViewController.m */; };
+		CEBA06D91471AB1E00AD97B6 /* CustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06D71471AB1E00AD97B6 /* CustomPickerViewController.xib */; };
+		CEBA06DF1471BA1C00AD97B6 /* F.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06DA1471BA1B00AD97B6 /* F.gif */; };
+		CEBA06E01471BA1C00AD97B6 /* E.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06DB1471BA1B00AD97B6 /* E.gif */; };
+		CEBA06E11471BA1C00AD97B6 /* D.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06DC1471BA1B00AD97B6 /* D.gif */; };
+		CEBA06E21471BA1C00AD97B6 /* A.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06DD1471BA1C00AD97B6 /* A.gif */; };
+		CEBA06E31471BA1C00AD97B6 /* B.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06DE1471BA1C00AD97B6 /* B.gif */; };
+		CEBA06E61471BA8E00AD97B6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA06E51471BA8E00AD97B6 /* MainWindow.xib */; };
+		CEBA08051471EE6700AD97B6 /* DoublePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA08031471EE6700AD97B6 /* DoublePickerViewController.m */; };
+		CEBA08061471EE6700AD97B6 /* DoublePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBA08041471EE6700AD97B6 /* DoublePickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBA06AB1471A60F00AD97B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBA066E1471A60F00AD97B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBA06761471A60F00AD97B6;
+			remoteInfo = iTutorial06;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBA06771471A60F00AD97B6 /* iTutorial06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTutorial06.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA067B1471A60F00AD97B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEBA067D1471A60F00AD97B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEBA067F1471A60F00AD97B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEBA06831471A60F00AD97B6 /* iTutorial06-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTutorial06-Info.plist"; sourceTree = "<group>"; };
+		CEBA06851471A60F00AD97B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEBA06871471A60F00AD97B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBA06891471A60F00AD97B6 /* iTutorial06-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTutorial06-Prefix.pch"; sourceTree = "<group>"; };
+		CEBA068A1471A60F00AD97B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBA068B1471A60F00AD97B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBA068D1471A60F00AD97B6 /* DatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		CEBA068E1471A60F00AD97B6 /* DatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		CEBA06941471A60F00AD97B6 /* SinglePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglePickerViewController.h; sourceTree = "<group>"; };
+		CEBA06951471A60F00AD97B6 /* SinglePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePickerViewController.m; sourceTree = "<group>"; };
+		CEBA069C1471A60F00AD97B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DatePickerViewController.xib; sourceTree = "<group>"; };
+		CEBA069F1471A60F00AD97B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SinglePickerViewController.xib; sourceTree = "<group>"; };
+		CEBA06A61471A60F00AD97B6 /* iTutorial06Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTutorial06Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA06A71471A60F00AD97B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEBA06AF1471A60F00AD97B6 /* iTutorial06Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTutorial06Tests-Info.plist"; sourceTree = "<group>"; };
+		CEBA06B11471A60F00AD97B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEBA06B31471A60F00AD97B6 /* iTutorial06Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTutorial06Tests.h; sourceTree = "<group>"; };
+		CEBA06B41471A60F00AD97B6 /* iTutorial06Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTutorial06Tests.m; sourceTree = "<group>"; };
+		CEBA06D01471AAEE00AD97B6 /* DependentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DependentPickerViewController.h; sourceTree = "<group>"; };
+		CEBA06D11471AAEE00AD97B6 /* DependentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DependentPickerViewController.m; sourceTree = "<group>"; };
+		CEBA06D21471AAEE00AD97B6 /* DependentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DependentPickerViewController.xib; sourceTree = "<group>"; };
+		CEBA06D51471AB1E00AD97B6 /* CustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerViewController.h; sourceTree = "<group>"; };
+		CEBA06D61471AB1E00AD97B6 /* CustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerViewController.m; sourceTree = "<group>"; };
+		CEBA06D71471AB1E00AD97B6 /* CustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPickerViewController.xib; sourceTree = "<group>"; };
+		CEBA06DA1471BA1B00AD97B6 /* F.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = F.gif; sourceTree = "<group>"; };
+		CEBA06DB1471BA1B00AD97B6 /* E.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = E.gif; sourceTree = "<group>"; };
+		CEBA06DC1471BA1B00AD97B6 /* D.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = D.gif; sourceTree = "<group>"; };
+		CEBA06DD1471BA1C00AD97B6 /* A.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = A.gif; sourceTree = "<group>"; };
+		CEBA06DE1471BA1C00AD97B6 /* B.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = B.gif; sourceTree = "<group>"; };
+		CEBA06E51471BA8E00AD97B6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CEBA08021471EE6700AD97B6 /* DoublePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoublePickerViewController.h; sourceTree = "<group>"; };
+		CEBA08031471EE6700AD97B6 /* DoublePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoublePickerViewController.m; sourceTree = "<group>"; };
+		CEBA08041471EE6700AD97B6 /* DoublePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoublePickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBA06741471A60F00AD97B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA067C1471A60F00AD97B6 /* UIKit.framework in Frameworks */,
+				CEBA067E1471A60F00AD97B6 /* Foundation.framework in Frameworks */,
+				CEBA06801471A60F00AD97B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBA06A21471A60F00AD97B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA06A81471A60F00AD97B6 /* SenTestingKit.framework in Frameworks */,
+				CEBA06A91471A60F00AD97B6 /* UIKit.framework in Frameworks */,
+				CEBA06AA1471A60F00AD97B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBA066C1471A60F00AD97B6 = {
+			isa = PBXGroup;
+			children = (
+				CEBA06811471A60F00AD97B6 /* iTutorial06 */,
+				CEBA06AD1471A60F00AD97B6 /* iTutorial06Tests */,
+				CEBA067A1471A60F00AD97B6 /* Frameworks */,
+				CEBA06781471A60F00AD97B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBA06781471A60F00AD97B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA06771471A60F00AD97B6 /* iTutorial06.app */,
+				CEBA06A61471A60F00AD97B6 /* iTutorial06Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBA067A1471A60F00AD97B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA067B1471A60F00AD97B6 /* UIKit.framework */,
+				CEBA067D1471A60F00AD97B6 /* Foundation.framework */,
+				CEBA067F1471A60F00AD97B6 /* CoreGraphics.framework */,
+				CEBA06A71471A60F00AD97B6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBA06811471A60F00AD97B6 /* iTutorial06 */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA068A1471A60F00AD97B6 /* AppDelegate.h */,
+				CEBA068B1471A60F00AD97B6 /* AppDelegate.m */,
+				CEBA068D1471A60F00AD97B6 /* DatePickerViewController.h */,
+				CEBA068E1471A60F00AD97B6 /* DatePickerViewController.m */,
+				CEBA06941471A60F00AD97B6 /* SinglePickerViewController.h */,
+				CEBA06951471A60F00AD97B6 /* SinglePickerViewController.m */,
+				CEBA08021471EE6700AD97B6 /* DoublePickerViewController.h */,
+				CEBA08031471EE6700AD97B6 /* DoublePickerViewController.m */,
+				CEBA06D01471AAEE00AD97B6 /* DependentPickerViewController.h */,
+				CEBA06D11471AAEE00AD97B6 /* DependentPickerViewController.m */,
+				CEBA06D51471AB1E00AD97B6 /* CustomPickerViewController.h */,
+				CEBA06D61471AB1E00AD97B6 /* CustomPickerViewController.m */,
+				CEBA06821471A60F00AD97B6 /* Supporting Files */,
+			);
+			path = iTutorial06;
+			sourceTree = "<group>";
+		};
+		CEBA06821471A60F00AD97B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA06E51471BA8E00AD97B6 /* MainWindow.xib */,
+				CEBA069B1471A60F00AD97B6 /* DatePickerViewController.xib */,
+				CEBA069E1471A60F00AD97B6 /* SinglePickerViewController.xib */,
+				CEBA08041471EE6700AD97B6 /* DoublePickerViewController.xib */,
+				CEBA06D21471AAEE00AD97B6 /* DependentPickerViewController.xib */,
+				CEBA06D71471AB1E00AD97B6 /* CustomPickerViewController.xib */,
+				CEBA06831471A60F00AD97B6 /* iTutorial06-Info.plist */,
+				CEBA06841471A60F00AD97B6 /* InfoPlist.strings */,
+				CEBA06871471A60F00AD97B6 /* main.m */,
+				CEBA06891471A60F00AD97B6 /* iTutorial06-Prefix.pch */,
+				CEBA06E41471BA2000AD97B6 /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBA06AD1471A60F00AD97B6 /* iTutorial06Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA06B31471A60F00AD97B6 /* iTutorial06Tests.h */,
+				CEBA06B41471A60F00AD97B6 /* iTutorial06Tests.m */,
+				CEBA06AE1471A60F00AD97B6 /* Supporting Files */,
+			);
+			path = iTutorial06Tests;
+			sourceTree = "<group>";
+		};
+		CEBA06AE1471A60F00AD97B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA06AF1471A60F00AD97B6 /* iTutorial06Tests-Info.plist */,
+				CEBA06B01471A60F00AD97B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBA06E41471BA2000AD97B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA06DA1471BA1B00AD97B6 /* F.gif */,
+				CEBA06DB1471BA1B00AD97B6 /* E.gif */,
+				CEBA06DC1471BA1B00AD97B6 /* D.gif */,
+				CEBA06DD1471BA1C00AD97B6 /* A.gif */,
+				CEBA06DE1471BA1C00AD97B6 /* B.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBA06761471A60F00AD97B6 /* iTutorial06 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBA06B81471A60F00AD97B6 /* Build configuration list for PBXNativeTarget "iTutorial06" */;
+			buildPhases = (
+				CEBA06731471A60F00AD97B6 /* Sources */,
+				CEBA06741471A60F00AD97B6 /* Frameworks */,
+				CEBA06751471A60F00AD97B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTutorial06;
+			productName = iTutorial06;
+			productReference = CEBA06771471A60F00AD97B6 /* iTutorial06.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBA06A51471A60F00AD97B6 /* iTutorial06Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBA06BB1471A60F00AD97B6 /* Build configuration list for PBXNativeTarget "iTutorial06Tests" */;
+			buildPhases = (
+				CEBA06A11471A60F00AD97B6 /* Sources */,
+				CEBA06A21471A60F00AD97B6 /* Frameworks */,
+				CEBA06A31471A60F00AD97B6 /* Resources */,
+				CEBA06A41471A60F00AD97B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBA06AC1471A60F00AD97B6 /* PBXTargetDependency */,
+			);
+			name = iTutorial06Tests;
+			productName = iTutorial06Tests;
+			productReference = CEBA06A61471A60F00AD97B6 /* iTutorial06Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBA066E1471A60F00AD97B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEBA06711471A60F00AD97B6 /* Build configuration list for PBXProject "iTutorial06" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEBA066C1471A60F00AD97B6;
+			productRefGroup = CEBA06781471A60F00AD97B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBA06761471A60F00AD97B6 /* iTutorial06 */,
+				CEBA06A51471A60F00AD97B6 /* iTutorial06Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBA06751471A60F00AD97B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA06861471A60F00AD97B6 /* InfoPlist.strings in Resources */,
+				CEBA069D1471A60F00AD97B6 /* DatePickerViewController.xib in Resources */,
+				CEBA06A01471A60F00AD97B6 /* SinglePickerViewController.xib in Resources */,
+				CEBA06D41471AAEE00AD97B6 /* DependentPickerViewController.xib in Resources */,
+				CEBA06D91471AB1E00AD97B6 /* CustomPickerViewController.xib in Resources */,
+				CEBA06DF1471BA1C00AD97B6 /* F.gif in Resources */,
+				CEBA06E01471BA1C00AD97B6 /* E.gif in Resources */,
+				CEBA06E11471BA1C00AD97B6 /* D.gif in Resources */,
+				CEBA06E21471BA1C00AD97B6 /* A.gif in Resources */,
+				CEBA06E31471BA1C00AD97B6 /* B.gif in Resources */,
+				CEBA06E61471BA8E00AD97B6 /* MainWindow.xib in Resources */,
+				CEBA08061471EE6700AD97B6 /* DoublePickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBA06A31471A60F00AD97B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA06B21471A60F00AD97B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEBA06A41471A60F00AD97B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBA06731471A60F00AD97B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA06881471A60F00AD97B6 /* main.m in Sources */,
+				CEBA068C1471A60F00AD97B6 /* AppDelegate.m in Sources */,
+				CEBA068F1471A60F00AD97B6 /* DatePickerViewController.m in Sources */,
+				CEBA06961471A60F00AD97B6 /* SinglePickerViewController.m in Sources */,
+				CEBA06D31471AAEE00AD97B6 /* DependentPickerViewController.m in Sources */,
+				CEBA06D81471AB1E00AD97B6 /* CustomPickerViewController.m in Sources */,
+				CEBA08051471EE6700AD97B6 /* DoublePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBA06A11471A60F00AD97B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBA06B51471A60F00AD97B6 /* iTutorial06Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBA06AC1471A60F00AD97B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBA06761471A60F00AD97B6 /* iTutorial06 */;
+			targetProxy = CEBA06AB1471A60F00AD97B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBA06841471A60F00AD97B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA06851471A60F00AD97B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEBA069B1471A60F00AD97B6 /* DatePickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA069C1471A60F00AD97B6 /* en */,
+			);
+			name = DatePickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEBA069E1471A60F00AD97B6 /* SinglePickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA069F1471A60F00AD97B6 /* en */,
+			);
+			name = SinglePickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEBA06B01471A60F00AD97B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBA06B11471A60F00AD97B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBA06B61471A60F00AD97B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBA06B71471A60F00AD97B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBA06B91471A60F00AD97B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial06/iTutorial06-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial06/iTutorial06-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEBA06BA1471A60F00AD97B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial06/iTutorial06-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial06/iTutorial06-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEBA06BC1471A60F00AD97B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTutorial06.app/iTutorial06";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial06/iTutorial06-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial06Tests/iTutorial06Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEBA06BD1471A60F00AD97B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTutorial06.app/iTutorial06";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTutorial06/iTutorial06-Prefix.pch";
+				INFOPLIST_FILE = "iTutorial06Tests/iTutorial06Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBA06711471A60F00AD97B6 /* Build configuration list for PBXProject "iTutorial06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA06B61471A60F00AD97B6 /* Debug */,
+				CEBA06B71471A60F00AD97B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBA06B81471A60F00AD97B6 /* Build configuration list for PBXNativeTarget "iTutorial06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA06B91471A60F00AD97B6 /* Debug */,
+				CEBA06BA1471A60F00AD97B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBA06BB1471A60F00AD97B6 /* Build configuration list for PBXNativeTarget "iTutorial06Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBA06BC1471A60F00AD97B6 /* Debug */,
+				CEBA06BD1471A60F00AD97B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBA066E1471A60F00AD97B6 /* Project object */;
+}

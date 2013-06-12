@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE8DE491470A512007EFF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE481470A512007EFF13 /* UIKit.framework */; };
+		CEE8DE4B1470A512007EFF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE4A1470A512007EFF13 /* Foundation.framework */; };
+		CEE8DE4D1470A512007EFF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE4C1470A512007EFF13 /* CoreGraphics.framework */; };
+		CEE8DE531470A513007EFF13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DE511470A513007EFF13 /* InfoPlist.strings */; };
+		CEE8DE551470A513007EFF13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DE541470A513007EFF13 /* main.m */; };
+		CEE8DE591470A513007EFF13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DE581470A513007EFF13 /* AppDelegate.m */; };
+		CEE8DE5C1470A513007EFF13 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DE5B1470A513007EFF13 /* MasterViewController.m */; };
+		CEE8DE5F1470A513007EFF13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DE5E1470A513007EFF13 /* DetailViewController.m */; };
+		CEE8DE621470A513007EFF13 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DE601470A513007EFF13 /* MasterViewController.xib */; };
+		CEE8DE651470A513007EFF13 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DE631470A513007EFF13 /* DetailViewController.xib */; };
+		CEE8DE6D1470A513007EFF13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE6C1470A513007EFF13 /* SenTestingKit.framework */; };
+		CEE8DE6E1470A513007EFF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE481470A512007EFF13 /* UIKit.framework */; };
+		CEE8DE6F1470A513007EFF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE4A1470A512007EFF13 /* Foundation.framework */; };
+		CEE8DE771470A513007EFF13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DE751470A513007EFF13 /* InfoPlist.strings */; };
+		CEE8DE7A1470A513007EFF13 /* NavigationLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DE791470A513007EFF13 /* NavigationLabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE8DE701470A513007EFF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE8DE3B1470A512007EFF13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE8DE431470A512007EFF13;
+			remoteInfo = NavigationLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE8DE441470A512007EFF13 /* NavigationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8DE481470A512007EFF13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE8DE4A1470A512007EFF13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE8DE4C1470A512007EFF13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE8DE501470A513007EFF13 /* NavigationLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationLab-Info.plist"; sourceTree = "<group>"; };
+		CEE8DE521470A513007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE8DE541470A513007EFF13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE8DE561470A513007EFF13 /* NavigationLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationLab-Prefix.pch"; sourceTree = "<group>"; };
+		CEE8DE571470A513007EFF13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE8DE581470A513007EFF13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE8DE5A1470A513007EFF13 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CEE8DE5B1470A513007EFF13 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CEE8DE5D1470A513007EFF13 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CEE8DE5E1470A513007EFF13 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CEE8DE611470A513007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		CEE8DE641470A513007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		CEE8DE6B1470A513007EFF13 /* NavigationLabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationLabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8DE6C1470A513007EFF13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEE8DE741470A513007EFF13 /* NavigationLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationLabTests-Info.plist"; sourceTree = "<group>"; };
+		CEE8DE761470A513007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE8DE781470A513007EFF13 /* NavigationLabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationLabTests.h; sourceTree = "<group>"; };
+		CEE8DE791470A513007EFF13 /* NavigationLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationLabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE8DE411470A512007EFF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE491470A512007EFF13 /* UIKit.framework in Frameworks */,
+				CEE8DE4B1470A512007EFF13 /* Foundation.framework in Frameworks */,
+				CEE8DE4D1470A512007EFF13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8DE671470A513007EFF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE6D1470A513007EFF13 /* SenTestingKit.framework in Frameworks */,
+				CEE8DE6E1470A513007EFF13 /* UIKit.framework in Frameworks */,
+				CEE8DE6F1470A513007EFF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE8DE391470A512007EFF13 = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE4E1470A513007EFF13 /* NavigationLab */,
+				CEE8DE721470A513007EFF13 /* NavigationLabTests */,
+				CEE8DE471470A512007EFF13 /* Frameworks */,
+				CEE8DE451470A512007EFF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE8DE451470A512007EFF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE441470A512007EFF13 /* NavigationLab.app */,
+				CEE8DE6B1470A513007EFF13 /* NavigationLabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE8DE471470A512007EFF13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE481470A512007EFF13 /* UIKit.framework */,
+				CEE8DE4A1470A512007EFF13 /* Foundation.framework */,
+				CEE8DE4C1470A512007EFF13 /* CoreGraphics.framework */,
+				CEE8DE6C1470A513007EFF13 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE8DE4E1470A513007EFF13 /* NavigationLab */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE571470A513007EFF13 /* AppDelegate.h */,
+				CEE8DE581470A513007EFF13 /* AppDelegate.m */,
+				CEE8DE5A1470A513007EFF13 /* MasterViewController.h */,
+				CEE8DE5B1470A513007EFF13 /* MasterViewController.m */,
+				CEE8DE5D1470A513007EFF13 /* DetailViewController.h */,
+				CEE8DE5E1470A513007EFF13 /* DetailViewController.m */,
+				CEE8DE601470A513007EFF13 /* MasterViewController.xib */,
+				CEE8DE631470A513007EFF13 /* DetailViewController.xib */,
+				CEE8DE4F1470A513007EFF13 /* Supporting Files */,
+			);
+			path = NavigationLab;
+			sourceTree = "<group>";
+		};
+		CEE8DE4F1470A513007EFF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE501470A513007EFF13 /* NavigationLab-Info.plist */,
+				CEE8DE511470A513007EFF13 /* InfoPlist.strings */,
+				CEE8DE541470A513007EFF13 /* main.m */,
+				CEE8DE561470A513007EFF13 /* NavigationLab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE8DE721470A513007EFF13 /* NavigationLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE781470A513007EFF13 /* NavigationLabTests.h */,
+				CEE8DE791470A513007EFF13 /* NavigationLabTests.m */,
+				CEE8DE731470A513007EFF13 /* Supporting Files */,
+			);
+			path = NavigationLabTests;
+			sourceTree = "<group>";
+		};
+		CEE8DE731470A513007EFF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE741470A513007EFF13 /* NavigationLabTests-Info.plist */,
+				CEE8DE751470A513007EFF13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE8DE431470A512007EFF13 /* NavigationLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE8DE7D1470A513007EFF13 /* Build configuration list for PBXNativeTarget "NavigationLab" */;
+			buildPhases = (
+				CEE8DE401470A512007EFF13 /* Sources */,
+				CEE8DE411470A512007EFF13 /* Frameworks */,
+				CEE8DE421470A512007EFF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationLab;
+			productName = NavigationLab;
+			productReference = CEE8DE441470A512007EFF13 /* NavigationLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE8DE6A1470A513007EFF13 /* NavigationLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE8DE801470A513007EFF13 /* Build configuration list for PBXNativeTarget "NavigationLabTests" */;
+			buildPhases = (
+				CEE8DE661470A513007EFF13 /* Sources */,
+				CEE8DE671470A513007EFF13 /* Frameworks */,
+				CEE8DE681470A513007EFF13 /* Resources */,
+				CEE8DE691470A513007EFF13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE8DE711470A513007EFF13 /* PBXTargetDependency */,
+			);
+			name = NavigationLabTests;
+			productName = NavigationLabTests;
+			productReference = CEE8DE6B1470A513007EFF13 /* NavigationLabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE8DE3B1470A512007EFF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEE8DE3E1470A512007EFF13 /* Build configuration list for PBXProject "NavigationLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE8DE391470A512007EFF13;
+			productRefGroup = CEE8DE451470A512007EFF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE8DE431470A512007EFF13 /* NavigationLab */,
+				CEE8DE6A1470A513007EFF13 /* NavigationLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE8DE421470A512007EFF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE531470A513007EFF13 /* InfoPlist.strings in Resources */,
+				CEE8DE621470A513007EFF13 /* MasterViewController.xib in Resources */,
+				CEE8DE651470A513007EFF13 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8DE681470A513007EFF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE771470A513007EFF13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEE8DE691470A513007EFF13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE8DE401470A512007EFF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE551470A513007EFF13 /* main.m in Sources */,
+				CEE8DE591470A513007EFF13 /* AppDelegate.m in Sources */,
+				CEE8DE5C1470A513007EFF13 /* MasterViewController.m in Sources */,
+				CEE8DE5F1470A513007EFF13 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8DE661470A513007EFF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE7A1470A513007EFF13 /* NavigationLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE8DE711470A513007EFF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE8DE431470A512007EFF13 /* NavigationLab */;
+			targetProxy = CEE8DE701470A513007EFF13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE8DE511470A513007EFF13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DE521470A513007EFF13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE8DE601470A513007EFF13 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DE611470A513007EFF13 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEE8DE631470A513007EFF13 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DE641470A513007EFF13 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEE8DE751470A513007EFF13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DE761470A513007EFF13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE8DE7B1470A513007EFF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE8DE7C1470A513007EFF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE8DE7E1470A513007EFF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationLab/NavigationLab-Prefix.pch";
+				INFOPLIST_FILE = "NavigationLab/NavigationLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE8DE7F1470A513007EFF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationLab/NavigationLab-Prefix.pch";
+				INFOPLIST_FILE = "NavigationLab/NavigationLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEE8DE811470A513007EFF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationLab.app/NavigationLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationLab/NavigationLab-Prefix.pch";
+				INFOPLIST_FILE = "NavigationLabTests/NavigationLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEE8DE821470A513007EFF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationLab.app/NavigationLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationLab/NavigationLab-Prefix.pch";
+				INFOPLIST_FILE = "NavigationLabTests/NavigationLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE8DE3E1470A512007EFF13 /* Build configuration list for PBXProject "NavigationLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8DE7B1470A513007EFF13 /* Debug */,
+				CEE8DE7C1470A513007EFF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE8DE7D1470A513007EFF13 /* Build configuration list for PBXNativeTarget "NavigationLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8DE7E1470A513007EFF13 /* Debug */,
+				CEE8DE7F1470A513007EFF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEE8DE801470A513007EFF13 /* Build configuration list for PBXNativeTarget "NavigationLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8DE811470A513007EFF13 /* Debug */,
+				CEE8DE821470A513007EFF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE8DE3B1470A512007EFF13 /* Project object */;
+}

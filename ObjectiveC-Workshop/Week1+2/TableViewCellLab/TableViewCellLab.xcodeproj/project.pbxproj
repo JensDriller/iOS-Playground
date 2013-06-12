@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE8DE931470ACAA007EFF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE921470ACAA007EFF13 /* UIKit.framework */; };
+		CEE8DE951470ACAA007EFF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE941470ACAA007EFF13 /* Foundation.framework */; };
+		CEE8DE971470ACAA007EFF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE961470ACAA007EFF13 /* CoreGraphics.framework */; };
+		CEE8DE9D1470ACAA007EFF13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DE9B1470ACAA007EFF13 /* InfoPlist.strings */; };
+		CEE8DE9F1470ACAA007EFF13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DE9E1470ACAA007EFF13 /* main.m */; };
+		CEE8DEA31470ACAA007EFF13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DEA21470ACAA007EFF13 /* AppDelegate.m */; };
+		CEE8DEA61470ACAA007EFF13 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DEA51470ACAA007EFF13 /* MasterViewController.m */; };
+		CEE8DEA91470ACAA007EFF13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DEA81470ACAA007EFF13 /* DetailViewController.m */; };
+		CEE8DEAC1470ACAA007EFF13 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DEAA1470ACAA007EFF13 /* MasterViewController.xib */; };
+		CEE8DEAF1470ACAA007EFF13 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DEAD1470ACAA007EFF13 /* DetailViewController.xib */; };
+		CEE8DEB71470ACAA007EFF13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DEB61470ACAA007EFF13 /* SenTestingKit.framework */; };
+		CEE8DEB81470ACAA007EFF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE921470ACAA007EFF13 /* UIKit.framework */; };
+		CEE8DEB91470ACAA007EFF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE8DE941470ACAA007EFF13 /* Foundation.framework */; };
+		CEE8DEC11470ACAA007EFF13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DEBF1470ACAA007EFF13 /* InfoPlist.strings */; };
+		CEE8DEC41470ACAA007EFF13 /* TableViewCellLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DEC31470ACAA007EFF13 /* TableViewCellLabTests.m */; };
+		CEE8DEE31470ACD2007EFF13 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8DEE21470ACD2007EFF13 /* Person.m */; };
+		CEE8DEEC1470B394007EFF13 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DEEB1470B394007EFF13 /* 3.jpg */; };
+		CEE8DEEE1470B39D007EFF13 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DEED1470B39D007EFF13 /* 2.jpg */; };
+		CEE8DEF01470B3A4007EFF13 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEE8DEEF1470B3A4007EFF13 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE8DEBA1470ACAA007EFF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE8DE851470ACAA007EFF13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE8DE8D1470ACAA007EFF13;
+			remoteInfo = TableViewCellLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE8DE8E1470ACAA007EFF13 /* TableViewCellLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8DE921470ACAA007EFF13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE8DE941470ACAA007EFF13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE8DE961470ACAA007EFF13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE8DE9A1470ACAA007EFF13 /* TableViewCellLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewCellLab-Info.plist"; sourceTree = "<group>"; };
+		CEE8DE9C1470ACAA007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE8DE9E1470ACAA007EFF13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE8DEA01470ACAA007EFF13 /* TableViewCellLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewCellLab-Prefix.pch"; sourceTree = "<group>"; };
+		CEE8DEA11470ACAA007EFF13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE8DEA21470ACAA007EFF13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE8DEA41470ACAA007EFF13 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CEE8DEA51470ACAA007EFF13 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CEE8DEA71470ACAA007EFF13 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CEE8DEA81470ACAA007EFF13 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CEE8DEAB1470ACAA007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		CEE8DEAE1470ACAA007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		CEE8DEB51470ACAA007EFF13 /* TableViewCellLabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellLabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8DEB61470ACAA007EFF13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEE8DEBE1470ACAA007EFF13 /* TableViewCellLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewCellLabTests-Info.plist"; sourceTree = "<group>"; };
+		CEE8DEC01470ACAA007EFF13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE8DEC21470ACAA007EFF13 /* TableViewCellLabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellLabTests.h; sourceTree = "<group>"; };
+		CEE8DEC31470ACAA007EFF13 /* TableViewCellLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellLabTests.m; sourceTree = "<group>"; };
+		CEE8DEE11470ACD2007EFF13 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CEE8DEE21470ACD2007EFF13 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CEE8DEEB1470B394007EFF13 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CEE8DEED1470B39D007EFF13 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CEE8DEEF1470B3A4007EFF13 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE8DE8B1470ACAA007EFF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE931470ACAA007EFF13 /* UIKit.framework in Frameworks */,
+				CEE8DE951470ACAA007EFF13 /* Foundation.framework in Frameworks */,
+				CEE8DE971470ACAA007EFF13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8DEB11470ACAA007EFF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DEB71470ACAA007EFF13 /* SenTestingKit.framework in Frameworks */,
+				CEE8DEB81470ACAA007EFF13 /* UIKit.framework in Frameworks */,
+				CEE8DEB91470ACAA007EFF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE8DE831470ACAA007EFF13 = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE981470ACAA007EFF13 /* TableViewCellLab */,
+				CEE8DEBC1470ACAA007EFF13 /* TableViewCellLabTests */,
+				CEE8DE911470ACAA007EFF13 /* Frameworks */,
+				CEE8DE8F1470ACAA007EFF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE8DE8F1470ACAA007EFF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE8E1470ACAA007EFF13 /* TableViewCellLab.app */,
+				CEE8DEB51470ACAA007EFF13 /* TableViewCellLabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE8DE911470ACAA007EFF13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DE921470ACAA007EFF13 /* UIKit.framework */,
+				CEE8DE941470ACAA007EFF13 /* Foundation.framework */,
+				CEE8DE961470ACAA007EFF13 /* CoreGraphics.framework */,
+				CEE8DEB61470ACAA007EFF13 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE8DE981470ACAA007EFF13 /* TableViewCellLab */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DEE11470ACD2007EFF13 /* Person.h */,
+				CEE8DEE21470ACD2007EFF13 /* Person.m */,
+				CEE8DEA11470ACAA007EFF13 /* AppDelegate.h */,
+				CEE8DEA21470ACAA007EFF13 /* AppDelegate.m */,
+				CEE8DEA41470ACAA007EFF13 /* MasterViewController.h */,
+				CEE8DEA51470ACAA007EFF13 /* MasterViewController.m */,
+				CEE8DEA71470ACAA007EFF13 /* DetailViewController.h */,
+				CEE8DEA81470ACAA007EFF13 /* DetailViewController.m */,
+				CEE8DEAA1470ACAA007EFF13 /* MasterViewController.xib */,
+				CEE8DEAD1470ACAA007EFF13 /* DetailViewController.xib */,
+				CEE8DE991470ACAA007EFF13 /* Supporting Files */,
+			);
+			path = TableViewCellLab;
+			sourceTree = "<group>";
+		};
+		CEE8DE991470ACAA007EFF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DEE61470B056007EFF13 /* Images */,
+				CEE8DE9A1470ACAA007EFF13 /* TableViewCellLab-Info.plist */,
+				CEE8DE9B1470ACAA007EFF13 /* InfoPlist.strings */,
+				CEE8DE9E1470ACAA007EFF13 /* main.m */,
+				CEE8DEA01470ACAA007EFF13 /* TableViewCellLab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE8DEBC1470ACAA007EFF13 /* TableViewCellLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DEC21470ACAA007EFF13 /* TableViewCellLabTests.h */,
+				CEE8DEC31470ACAA007EFF13 /* TableViewCellLabTests.m */,
+				CEE8DEBD1470ACAA007EFF13 /* Supporting Files */,
+			);
+			path = TableViewCellLabTests;
+			sourceTree = "<group>";
+		};
+		CEE8DEBD1470ACAA007EFF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DEBE1470ACAA007EFF13 /* TableViewCellLabTests-Info.plist */,
+				CEE8DEBF1470ACAA007EFF13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE8DEE61470B056007EFF13 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8DEEF1470B3A4007EFF13 /* 1.jpg */,
+				CEE8DEED1470B39D007EFF13 /* 2.jpg */,
+				CEE8DEEB1470B394007EFF13 /* 3.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE8DE8D1470ACAA007EFF13 /* TableViewCellLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE8DEC71470ACAA007EFF13 /* Build configuration list for PBXNativeTarget "TableViewCellLab" */;
+			buildPhases = (
+				CEE8DE8A1470ACAA007EFF13 /* Sources */,
+				CEE8DE8B1470ACAA007EFF13 /* Frameworks */,
+				CEE8DE8C1470ACAA007EFF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewCellLab;
+			productName = TableViewCellLab;
+			productReference = CEE8DE8E1470ACAA007EFF13 /* TableViewCellLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE8DEB41470ACAA007EFF13 /* TableViewCellLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE8DECA1470ACAA007EFF13 /* Build configuration list for PBXNativeTarget "TableViewCellLabTests" */;
+			buildPhases = (
+				CEE8DEB01470ACAA007EFF13 /* Sources */,
+				CEE8DEB11470ACAA007EFF13 /* Frameworks */,
+				CEE8DEB21470ACAA007EFF13 /* Resources */,
+				CEE8DEB31470ACAA007EFF13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE8DEBB1470ACAA007EFF13 /* PBXTargetDependency */,
+			);
+			name = TableViewCellLabTests;
+			productName = TableViewCellLabTests;
+			productReference = CEE8DEB51470ACAA007EFF13 /* TableViewCellLabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE8DE851470ACAA007EFF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CEE8DE881470ACAA007EFF13 /* Build configuration list for PBXProject "TableViewCellLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEE8DE831470ACAA007EFF13;
+			productRefGroup = CEE8DE8F1470ACAA007EFF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE8DE8D1470ACAA007EFF13 /* TableViewCellLab */,
+				CEE8DEB41470ACAA007EFF13 /* TableViewCellLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE8DE8C1470ACAA007EFF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE9D1470ACAA007EFF13 /* InfoPlist.strings in Resources */,
+				CEE8DEAC1470ACAA007EFF13 /* MasterViewController.xib in Resources */,
+				CEE8DEAF1470ACAA007EFF13 /* DetailViewController.xib in Resources */,
+				CEE8DEEC1470B394007EFF13 /* 3.jpg in Resources */,
+				CEE8DEEE1470B39D007EFF13 /* 2.jpg in Resources */,
+				CEE8DEF01470B3A4007EFF13 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8DEB21470ACAA007EFF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DEC11470ACAA007EFF13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEE8DEB31470ACAA007EFF13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE8DE8A1470ACAA007EFF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DE9F1470ACAA007EFF13 /* main.m in Sources */,
+				CEE8DEA31470ACAA007EFF13 /* AppDelegate.m in Sources */,
+				CEE8DEA61470ACAA007EFF13 /* MasterViewController.m in Sources */,
+				CEE8DEA91470ACAA007EFF13 /* DetailViewController.m in Sources */,
+				CEE8DEE31470ACD2007EFF13 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8DEB01470ACAA007EFF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8DEC41470ACAA007EFF13 /* TableViewCellLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE8DEBB1470ACAA007EFF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE8DE8D1470ACAA007EFF13 /* TableViewCellLab */;
+			targetProxy = CEE8DEBA1470ACAA007EFF13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE8DE9B1470ACAA007EFF13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DE9C1470ACAA007EFF13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE8DEAA1470ACAA007EFF13 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DEAB1470ACAA007EFF13 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEE8DEAD1470ACAA007EFF13 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DEAE1470ACAA007EFF13 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEE8DEBF1470ACAA007EFF13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8DEC01470ACAA007EFF13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE8DEC51470ACAA007EFF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE8DEC61470ACAA007EFF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE8DEC81470ACAA007EFF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewCellLab/TableViewCellLab-Prefix.pch";
+				INFOPLIST_FILE = "TableViewCellLab/TableViewCellLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE8DEC91470ACAA007EFF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewCellLab/TableViewCellLab-Prefix.pch";
+				INFOPLIST_FILE = "TableViewCellLab/TableViewCellLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEE8DECB1470ACAA007EFF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewCellLab.app/TableViewCellLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewCellLab/TableViewCellLab-Prefix.pch";
+				INFOPLIST_FILE = "TableViewCellLabTests/TableViewCellLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEE8DECC1470ACAA007EFF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewCellLab.app/TableViewCellLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewCellLab/TableViewCellLab-Prefix.pch";
+				INFOPLIST_FILE = "TableViewCellLabTests/TableViewCellLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE8DE881470ACAA007EFF13 /* Build configuration list for PBXProject "TableViewCellLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8DEC51470ACAA007EFF13 /* Debug */,
+				CEE8DEC61470ACAA007EFF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE8DEC71470ACAA007EFF13 /* Build configuration list for PBXNativeTarget "TableViewCellLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8DEC81470ACAA007EFF13 /* Debug */,
+				CEE8DEC91470ACAA007EFF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEE8DECA1470ACAA007EFF13 /* Build configuration list for PBXNativeTarget "TableViewCellLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8DECB1470ACAA007EFF13 /* Debug */,
+				CEE8DECC1470ACAA007EFF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE8DE851470ACAA007EFF13 /* Project object */;
+}

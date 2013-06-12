@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjectiveCLab04' target in the 'ObjectiveCLab04' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

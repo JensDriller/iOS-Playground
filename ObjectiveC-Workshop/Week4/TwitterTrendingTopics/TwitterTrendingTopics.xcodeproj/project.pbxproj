@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE837EA71485201800E576C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE837EA61485201800E576C8 /* UIKit.framework */; };
+		CE837EA91485201800E576C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE837EA81485201800E576C8 /* Foundation.framework */; };
+		CE837EAB1485201800E576C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE837EAA1485201800E576C8 /* CoreGraphics.framework */; };
+		CE837EB11485201800E576C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE837EAF1485201800E576C8 /* InfoPlist.strings */; };
+		CE837EB31485201800E576C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE837EB21485201800E576C8 /* main.m */; };
+		CE837EB71485201800E576C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE837EB61485201800E576C8 /* AppDelegate.m */; };
+		CE837EBA1485201800E576C8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE837EB81485201800E576C8 /* MainStoryboard.storyboard */; };
+		CE837EBD1485201800E576C8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE837EBC1485201800E576C8 /* MasterViewController.m */; };
+		CE837EC01485201800E576C8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE837EBF1485201800E576C8 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE837EA21485201800E576C8 /* TwitterTrendingTopics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterTrendingTopics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE837EA61485201800E576C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE837EA81485201800E576C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE837EAA1485201800E576C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE837EAE1485201800E576C8 /* TwitterTrendingTopics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterTrendingTopics-Info.plist"; sourceTree = "<group>"; };
+		CE837EB01485201800E576C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE837EB21485201800E576C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE837EB41485201800E576C8 /* TwitterTrendingTopics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterTrendingTopics-Prefix.pch"; sourceTree = "<group>"; };
+		CE837EB51485201800E576C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE837EB61485201800E576C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE837EB91485201800E576C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE837EBB1485201800E576C8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CE837EBC1485201800E576C8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CE837EBE1485201800E576C8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CE837EBF1485201800E576C8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE837E9F1485201800E576C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE837EA71485201800E576C8 /* UIKit.framework in Frameworks */,
+				CE837EA91485201800E576C8 /* Foundation.framework in Frameworks */,
+				CE837EAB1485201800E576C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE837E971485201800E576C8 = {
+			isa = PBXGroup;
+			children = (
+				CE837EAC1485201800E576C8 /* TwitterTrendingTopics */,
+				CE837EB81485201800E576C8 /* MainStoryboard.storyboard */,
+				CE837EA51485201800E576C8 /* Frameworks */,
+				CE837EA31485201800E576C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE837EA31485201800E576C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE837EA21485201800E576C8 /* TwitterTrendingTopics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE837EA51485201800E576C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE837EA61485201800E576C8 /* UIKit.framework */,
+				CE837EA81485201800E576C8 /* Foundation.framework */,
+				CE837EAA1485201800E576C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE837EAC1485201800E576C8 /* TwitterTrendingTopics */ = {
+			isa = PBXGroup;
+			children = (
+				CE837EB51485201800E576C8 /* AppDelegate.h */,
+				CE837EB61485201800E576C8 /* AppDelegate.m */,
+				CE837EBB1485201800E576C8 /* MasterViewController.h */,
+				CE837EBC1485201800E576C8 /* MasterViewController.m */,
+				CE837EBE1485201800E576C8 /* DetailViewController.h */,
+				CE837EBF1485201800E576C8 /* DetailViewController.m */,
+				CE837EAD1485201800E576C8 /* Supporting Files */,
+			);
+			path = TwitterTrendingTopics;
+			sourceTree = "<group>";
+		};
+		CE837EAD1485201800E576C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE837EAE1485201800E576C8 /* TwitterTrendingTopics-Info.plist */,
+				CE837EAF1485201800E576C8 /* InfoPlist.strings */,
+				CE837EB21485201800E576C8 /* main.m */,
+				CE837EB41485201800E576C8 /* TwitterTrendingTopics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE837EA11485201800E576C8 /* TwitterTrendingTopics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE837EC31485201800E576C8 /* Build configuration list for PBXNativeTarget "TwitterTrendingTopics" */;
+			buildPhases = (
+				CE837E9E1485201800E576C8 /* Sources */,
+				CE837E9F1485201800E576C8 /* Frameworks */,
+				CE837EA01485201800E576C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterTrendingTopics;
+			productName = TwitterTrendingTopics;
+			productReference = CE837EA21485201800E576C8 /* TwitterTrendingTopics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE837E991485201800E576C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE837E9C1485201800E576C8 /* Build configuration list for PBXProject "TwitterTrendingTopics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE837E971485201800E576C8;
+			productRefGroup = CE837EA31485201800E576C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE837EA11485201800E576C8 /* TwitterTrendingTopics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE837EA01485201800E576C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE837EB11485201800E576C8 /* InfoPlist.strings in Resources */,
+				CE837EBA1485201800E576C8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE837E9E1485201800E576C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE837EB31485201800E576C8 /* main.m in Sources */,
+				CE837EB71485201800E576C8 /* AppDelegate.m in Sources */,
+				CE837EBD1485201800E576C8 /* MasterViewController.m in Sources */,
+				CE837EC01485201800E576C8 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE837EAF1485201800E576C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE837EB01485201800E576C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE837EB81485201800E576C8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE837EB91485201800E576C8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = TwitterTrendingTopics;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE837EC11485201800E576C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE837EC21485201800E576C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE837EC41485201800E576C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterTrendingTopics/TwitterTrendingTopics-Prefix.pch";
+				INFOPLIST_FILE = "TwitterTrendingTopics/TwitterTrendingTopics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE837EC51485201800E576C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterTrendingTopics/TwitterTrendingTopics-Prefix.pch";
+				INFOPLIST_FILE = "TwitterTrendingTopics/TwitterTrendingTopics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE837E9C1485201800E576C8 /* Build configuration list for PBXProject "TwitterTrendingTopics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE837EC11485201800E576C8 /* Debug */,
+				CE837EC21485201800E576C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE837EC31485201800E576C8 /* Build configuration list for PBXNativeTarget "TwitterTrendingTopics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE837EC41485201800E576C8 /* Debug */,
+				CE837EC51485201800E576C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE837E991485201800E576C8 /* Project object */;
+}
